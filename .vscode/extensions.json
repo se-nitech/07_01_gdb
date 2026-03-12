@@ -4,6 +4,9 @@
         "mhutchie.git-graph",
         "ms-ceintl.vscode-language-pack-ja",
         "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode.cpp-devtools",
         "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.cpptools",
     ]
 }

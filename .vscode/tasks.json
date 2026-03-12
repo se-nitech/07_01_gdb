@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "process",
             "label": "C/C++: gcc build for debug",
             "command": "/usr/local/bin/gcc",
             "args": [
@@ -15,16 +15,13 @@
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
         },
         {
-            "type": "cppbuild",
+            "type": "process",
             "label": "C/C++: gcc build",
             "command": "/usr/local/bin/gcc",
             "args": [
@@ -36,12 +33,10 @@
             "options": {
                 "cwd": "${fileDirname}"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": {
                 "kind": "build",
-            },
+                "isDefault": true
+            }
         }
     ]
 }
